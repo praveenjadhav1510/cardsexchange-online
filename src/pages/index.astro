@@ -1,11 +1,29 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Cardsexchange">
+	<main>
+		<h1>cardsexchange</h1>
+	</main>
 </Layout>
+
+<style>
+	main {
+		display: grid;
+		min-height: 100vh;
+		place-items: center;
+		background: #f7f3ea;
+		color: #152519;
+	}
+
+	h1 {
+		margin: 0;
+		font-family: Georgia, 'Times New Roman', serif;
+		font-size: clamp(3.5rem, 11vw, 11rem);
+		font-weight: 900;
+		letter-spacing: -0.075em;
+		line-height: 0.9;
+		text-align: center;
+	}
+</style>
