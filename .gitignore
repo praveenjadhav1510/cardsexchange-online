@@ -20,5 +20,13 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+# VS Code-specific files
+.vscode/
+
 # jetbrains setting folder
 .idea/
+
+# Temporary folders
+.temp/
+.tmp/
+.task/
